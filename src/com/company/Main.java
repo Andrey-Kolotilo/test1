@@ -11,7 +11,7 @@ public class Main {
             int c;
             while((c=reader.read())!=-1){
 
-                System.out.print((char)c);
+                System.out.print((char) c);
             }
             System.out.println(System.getProperty("line.separator") + "чтение по символам завершено" + System.getProperty("line.separator"));
         }
