@@ -5,10 +5,9 @@ import java.io.*;
 public class Main {
 
     public static void main(String[] args) {
-        //String t= System.lineSeparator();
-	    try(FileReader reader = new FileReader("d:/test/test.txt"))
+         try(FileReader reader = new FileReader("d:/test/test.txt"))
         {
-            // читаем посимвольно
+                 // читаем посимвольно
             int c;
             while((c=reader.read())!=-1){
 
