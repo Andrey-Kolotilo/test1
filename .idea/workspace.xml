@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a85f487-aab0-44b2-acce-cf6f94a5acc3" name="Default Changelist" comment="" />
+    <list default="true" id="3a85f487-aab0-44b2-acce-cf6f94a5acc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +129,9 @@
       <updated>1652205751491</updated>
       <workItem from="1652205752677" duration="8137000" />
       <workItem from="1652213975362" duration="21000" />
-      <workItem from="1652255968223" duration="8085000" />
+      <workItem from="1652255968223" duration="9419000" />
+      <workItem from="1652296318743" duration="120000" />
+      <workItem from="1652884288164" duration="2457000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,17 @@
 package com.company;
 import java.io.IOException;
 import java.io.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-         try(FileReader reader = new FileReader("d:/test/test.txt"))
+        Scanner in_str = new Scanner(System.in);
+        System.out.print("Input a path: ");
+        String in_str_val = in_str.nextLine();
+
+        try(FileReader reader = new FileReader(in_str_val))
+         //try(FileReader reader = new FileReader("d:/test/test.txt"))
         {
                  // читаем посимвольно
             int c;
@@ -20,7 +26,7 @@ public class Main {
             }
 // по строкам
         try(
-             FileReader reader2 = new FileReader("d:/test/test.txt");
+             FileReader reader2 = new FileReader(in_str_val);
                BufferedReader varRead = new BufferedReader(reader2);
               )
         {
@@ -52,6 +58,8 @@ public class Main {
 
             System.out.println(ex.getMessage());
         }
-
+     /*
+        System.out.println(in_str_val);
+        System.out.printf("%s", in_str_val); */
     }
 }
