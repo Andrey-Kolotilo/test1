@@ -62,8 +62,38 @@ public class Main {
 
             System.out.println(ex.getMessage());
         }
+        TelegramBot bot = new TelegramBot("5117394742:AAG1P0VUuZPFsqNUSHuoX3NObYcmUB6lunQ");
+        //GetUpdates getUpdates = new GetUpdates().limit(100).offset(0).timeout(0);
+
+        bot.setUpdatesListener(new UpdatesListener() {
+            @Override
+            public int process(List<Update> updates) {
+
+                // обработка обновлений
+
+                return UpdatesListener.CONFIRMED_UPDATES_ALL;
+            }
+        });
+
+
+        System.out.println(getUpdates);
+
+
 
         System.out.println(in_str_val);
+
+        bot.
+
+        SendMessage request = new SendMessage(chatId, "text")
+                .parseMode(ParseMode.HTML)
+                .disableWebPagePreview(true)
+                .disableNotification(true)
+                .replyToMessageId(1)
+                .replyMarkup(new ForceReply());
+
+
+
+
 
     }
 }
