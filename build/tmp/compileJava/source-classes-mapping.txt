@@ -1,0 +1,3 @@
+com/company/Main.java
+ com.company.Main
+ com.company.Main$1

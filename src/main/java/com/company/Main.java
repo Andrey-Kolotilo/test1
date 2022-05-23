@@ -1,7 +1,17 @@
 package com.company;
 import java.io.IOException;
 import java.io.*;
+import java.util.List;
 import java.util.Scanner;
+
+import com.pengrad.telegrambot.Callback;
+import com.pengrad.telegrambot.TelegramBot;
+import com.pengrad.telegrambot.UpdatesListener;
+import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.request.ReplyKeyboardMarkup;
+import com.pengrad.telegrambot.request.SendMessage;
+import com.pengrad.telegrambot.response.SendResponse;
+
 
 public class Main {
 
@@ -64,6 +74,21 @@ public class Main {
         }
 
         System.out.println(in_str_val);
+
+        TelegramBot bot = new TelegramBot("5117394742:AAG1P0VUuZPFsqNUSHuoX3NObYcmUB6lunQ");
+/*
+     bot.setUpdatesListener(new UpdatesListener() {
+         @Override
+         public int process(List<Update> updates) {
+             SendMessage request = new SendMessage(bot,"qqq");
+             SendResponse sendResponse = bot.execute(request);
+             return 0;
+         }
+     });
+*/
+
+        //System.out.println(bot.getToken());
+
 
     }
 }
